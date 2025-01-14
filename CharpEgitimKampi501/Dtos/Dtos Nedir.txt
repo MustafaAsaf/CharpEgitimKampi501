@@ -1,0 +1,9 @@
+﻿DTO'lar, verilerin farklı katmanlar arasında taşınmasını sağlayan nesnelerdir. 
+Bu projede, DTO'lar, veritabanı işlemleri ile kullanıcı arayüzü arasındaki veri alışverişini sağlar. 
+
+Dtos klasöründe bulunan dosyalar şunlardır:
+	CreateProductDto.cs: Yeni bir ürün eklerken kullanılan veri modeli.
+	ResultProductDto.cs: Ürünlerin liste halinde çekildiği veri modeli.
+	UpdateProductDto.cs: Var olan bir ürünün güncellenmesi için kullanılan veri modeli.
+
+DTO'lar, uygulama içinde veri taşımak için kullanılır ve genellikle iş mantığından bağımsızdır.

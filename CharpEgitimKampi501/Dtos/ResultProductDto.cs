@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CharpEgitimKampi501.Dtos
+{
+    /// <summary>
+    /// Bu sınıfın içinde sql'den gelen tabloların propertileri tutulur.
+    /// Property isimleri ve tablodaki alanların isimleri aynı olmalıdır.
+    /// </summary>
+    public class ResultProductDto
+    {
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
+        public int ProductStock { get; set; }
+        public decimal ProductPrice { get; set; }
+        public string ProductCategory { get; set; }
+
+    }
+}

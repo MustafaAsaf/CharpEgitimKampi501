@@ -1,0 +1,6 @@
+﻿Repository katmanı, veritabanı ile etkileşimi yöneten ve uygulamanın iş mantığından bağımsız olarak veri erişim işlemlerini sağlayan bir katmandır. 
+Bu katman, veritabanı ile yapılan CRUD (Create, Read, Update, Delete) işlemleri için soyutlamalar sağlar. 
+Repositories klasöründe bulunan dosyalar şunlardır:
+
+IProductRepository.cs: Ürünler için veri erişim işlemlerinin tanımlandığı arayüz (interface). CRUD işlemleri için metotlar içerir.
+ProductRepository.cs: IProductRepository arayüzünü implement eden sınıf. Burada, ürünlere yönelik veritabanı işlemleri gerçekleştirilir.
